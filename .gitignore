@@ -1,0 +1,81 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode user data / local state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Build products & DerivedData (including local -derivedDataPath folders)
+build/
+Build/
+DerivedData/
+.derivedData/
+**/DerivedData*/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+Index/
+*.app
+*.appex
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods (if added later)
+Pods/
+
+# Carthage (if added later)
+Carthage/Build/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+AuthKey_*.p8
+GoogleService-Info.plist
+Secrets.xcconfig
+*.mobileprovision
+
+# Archives / logs / IDE
+*.xcarchive
+*.log
+.idea/
+*.swp
+*~
+
+# Cursor / tooling
+.cursor/
+.vscode/
